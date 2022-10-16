@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * maion - printing combinations
+ * main - printing combinations
  *
  * Return: 0
  */
@@ -16,7 +16,7 @@ int main(void)
 		if (num == 9)
 			continue;
 		putchar(',');
-		putchar(',');
+		putchar(' ');
 	}
 
 	putchar('\n');
