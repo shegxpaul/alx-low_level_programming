@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_traingle - prints a traingle
+ * print_triangle - prints a traingle
  * @n: size of the triang;le
  */
 
@@ -10,12 +10,12 @@ void print_triangle(int n)
 
 	if (n > 0)
 	{
-		for (h = 1; h <= n h++)
+		for (h = 1; h <= n; h++)
 		{
-			for (tri = n; h; tri > 0; tri--)
+			for (tri = n - h; tri > 0; tri--)
 				_putchar(' ');
 			for (tri = 0; tri < h; tri++)
-				_putchar('0');
+				_putchar('#');
 			if (h == n)
 				continue;
 			_putchar('\n');
