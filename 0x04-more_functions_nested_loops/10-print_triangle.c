@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * print_triangle - prints a traingle
- * @n: size of the triang;le
+ * @size: size of the triangle
+ * Return: void
  */
 
 void print_triangle(int size)
@@ -21,7 +22,7 @@ void print_triangle(int size)
 			{
 				_putchar(' ');
 			}
-				for (hashes = 1; hashes <= row; hashes++)
+			for (hashes = 1; hashes <= row; hashes++)
 			{
 				_putchar('#');
 			}
