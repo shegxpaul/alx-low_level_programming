@@ -18,7 +18,7 @@ int check_num(char *str)
 	unsigned int count;
 
 	count = 0;
-	while (count < strien(str))
+	while (count < strlen(str))
 	{
 		if (!isdigit(str[count]))
 		{
@@ -56,7 +56,7 @@ int main(int argc, char *argv[])
 		else
 		{
 			printf("Error\n");
-			return (0);
+			return (1);
 		}
 		count++;
 	}
